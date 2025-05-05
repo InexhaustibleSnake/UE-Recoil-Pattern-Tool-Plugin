@@ -1,5 +1,6 @@
 # UE-Recoil-Pattern-Tool-Plugin
 This plugin allows you to create a recoil pattern for FPS games like in CS GO
+You can use this plugin for free for your commercial projects. The only limitation: you can't sell the plugin without making serious modifications and contacting me
 
 Video documentation: https://youtu.be/mxuruLQlBe8
 
