@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ISRecoilPattern",
+	"Description": "This plugin allows you to create a return pattern in the editor",
+	"Category": "Other",
+	"CreatedBy": "Inexhaustible Snake",
+	"CreatedByURL": "https://github.com/InexhaustibleSnake",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ISRecoilPattern",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
