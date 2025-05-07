@@ -1,3 +1,5 @@
+
+
 // Made by Inexhaustible Snake
 
 #pragma once
@@ -7,7 +9,7 @@
 #include "ISRecoilPatternDataAssetFactory.generated.h"
 
 UCLASS()
-class ISRECOILPATTERN_API UISRecoilPatternDataAssetFactory : public UDataAssetFactory
+class ISRPEDITORMODULE_API UISRecoilPatternDataAssetFactory : public UDataAssetFactory
 {
 	GENERATED_BODY()
 public:

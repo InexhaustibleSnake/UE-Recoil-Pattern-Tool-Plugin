@@ -8,7 +8,7 @@
 class UISRecoilPatternDataAssetFactory;
 
 UCLASS()
-class ISRECOILPATTERN_API UISRecoilPatternWidget : public UEditorUtilityWidget
+class ISRPEDITORMODULE_API UISRecoilPatternWidget : public UEditorUtilityWidget
 {
     GENERATED_BODY()
 

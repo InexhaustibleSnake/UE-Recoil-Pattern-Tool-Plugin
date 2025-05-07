@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class ISRecoilPattern : ModuleRules
+public class ISRPEditorModule : ModuleRules
 {
-    public ISRecoilPattern(ReadOnlyTargetRules Target) : base(Target)
+    public ISRPEditorModule(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
@@ -28,7 +28,7 @@ public class ISRecoilPattern : ModuleRules
         PublicDependencyModuleNames.AddRange(
             new string[]
             {
-                "Core"
+                "Core", "Blutility", "UMG", "UnrealEd", "EditorScriptingUtilities", "ISRecoilPattern"
 				// ... add other public dependencies that you statically link with here ...
 			}
             );
