@@ -28,7 +28,8 @@ public class ISRPEditorModule : ModuleRules
         PublicDependencyModuleNames.AddRange(
             new string[]
             {
-                "Core", "Blutility", "UMG", "UnrealEd", "EditorScriptingUtilities", "ISRecoilPattern"
+                "Core", "Blutility", "UMG", "UnrealEd", "EditorScriptingUtilities", "ISRecoilPattern",
+                "AssetTools"
 				// ... add other public dependencies that you statically link with here ...
 			}
             );

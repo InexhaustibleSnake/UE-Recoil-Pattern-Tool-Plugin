@@ -18,4 +18,7 @@ protected:
 
     UFUNCTION(BlueprintCallable, Category = "ISRecoilPatternWidget")
     UISRecoilPatternDataAssetFactory* CreateDataAssetFactory() const;
+
+    UFUNCTION(BlueprintCallable, Category = "ISRecoilPatternWidget")
+    UObject* LoadAsset(const FString& AssetPath);
 };
