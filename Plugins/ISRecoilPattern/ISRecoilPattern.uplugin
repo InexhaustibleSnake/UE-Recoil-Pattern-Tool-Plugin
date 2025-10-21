@@ -1,13 +1,14 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0",
+	"VersionName": "1.2",
+	"EngineVersion": 5.6,
 	"FriendlyName": "ISRecoilPattern",
-	"Description": "This plugin allows you to create a return pattern in the editor",
+	"Description": "This plugin allows you to create a recoil pattern in the editor",
 	"Category": "Other",
 	"CreatedBy": "Inexhaustible Snake",
 	"CreatedByURL": "https://github.com/InexhaustibleSnake",
-	"DocsURL": "",
+	"DocsURL": "https://docs.google.com/document/d/1YMpra6Otm6MHMMXTkb-LLsweU7IbCoShuPot591BHDM/edit?usp=sharing",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": true,
@@ -18,12 +19,16 @@
 		{
 			"Name": "ISRecoilPattern",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Linux", "Mac" ],
+			"PlatformDenyList": []
 		},
 		{
 			"Name": "ISRPEditorModule",
 			"Type": "Editor",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Linux", "Mac" ],
+			"PlatformDenyList": []
 		}
 	]
 }

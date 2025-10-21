@@ -1,4 +1,4 @@
-// Made by Inexhaustible Snake
+// Copyright by Alexey Guchmazov/Inexhaustible Snake 2025. All rights reserved.
 
 #include "RecoilData/ISRecoilPatternDataAssetFactory.h"
 #include "RecoilData/ISRecoilPatterDataAsset.h"
